@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin IP Minecraft</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.pexels.com/photos/1044330/pexels-photo-1044330.jpeg'); /* Thay bằng URL của bạn */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #fff;
+        }
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #fff;
+            margin-bottom: 40px;
+        }
+        .server-info {
+            margin: 20px 0;
+        }
+        .server-info h2 {
+            margin-bottom: 10px;
+            color: #fff;
+        }
+        .ip-address {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="container">
+        <h1>Thông tin IP Minecraft</h1>
+        <div class="server-info">
+            <h2>Minecraft PE</h2>
+            <p class="ip-address">IP: pe.survivalheaven.fun</p>
+        </div>
+        <div class="server-info">
+            <h2>Minecraft PC</h2>
+            <p class="ip-address">IP: pc.survivalheaven.fun</p>
+        </div>
+    </div>
+</body>
+</html>
